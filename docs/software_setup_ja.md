@@ -1,7 +1,7 @@
 
 # ソフトウェア設定
 
-これらのステップを終えた後、あなたはすべてJetRacerをプログラムする準備ができているでしょう。終了したら、 [例に沿って](examples_ja.md)実行してください。
+このステップを終えたら、JetRacerをプログラムする準備は万端です。完了したら、次は[制作例](examples_ja.md)に沿って進めてください。
 
 ## ステップ1  - マイクロSDカードの書き込み
 1.  JetCard SDカードのイメージ[jetcard_v0p0p0.img](https://drive.google.com/open?id=1wXD1CwtxiH5Mz4uSmIZ76fd78zDQltW_)をWindows、Linux、またはMacのデスクトップマシンにダウンロードする
