@@ -94,7 +94,7 @@
 1. サーボをマルチプレクサの`OUT1`に接続
 1.  ESCをマルチプレクサの`OUT2`に接続
 
-## フェーズ3  - 自動車組立
+## フェーズ3  - 車の組み立て
 
 ### ステップ1 - ESCをベースプレートに取り付ける
 
@@ -214,9 +214,9 @@
 1. バレルプラグ電源を有効にするためにJetson Nano開発者キットの`J48`に2ピンジャンパーを取り付けます
 1. バレルプラグをJetson Nano開発者キットに挿入します<blockquote>電源を入れる前に、 [ソフトウェアの設定](software_setup.md)に従ってSDカードを設定する必要があります。 </blockquote>
 
-## フェーズ4 - RC送信機の修正
+## フェーズ4 - RC送信機の変更
 
-### ステップ1 - Dissasmbleラジオ
+### ステップ1 - 送信機を分解する
 
 <img src="https://user-images.githubusercontent.com/25759564/60376010-fc77f000-99c0-11e9-9e2a-478a5da88062.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60376011-fc77f000-99c0-11e9-827f-77e4df18516f.JPG" height=128/>
@@ -248,7 +248,7 @@
 <img src="https://user-images.githubusercontent.com/25759564/60377681-de64bc80-99cd-11e9-8158-161483ac51f7.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60377682-defd5300-99cd-11e9-80eb-6d82ea5315eb.JPG" height=128/>
 
-1. ドライバーの先端に合わせてRCトランスミッターに印を付けます
+1. ドライバーの先端に合わせてRC送信機に印を付けます
 1. 直径`6mm`ドリルビットを使用して、印を付けた場所に穴を開けます
 
 ### ステップ4  - スイッチキー用のドリル穴
@@ -258,12 +258,12 @@
 <img src="https://user-images.githubusercontent.com/25759564/60377687-df95e980-99cd-11e9-8c62-bcb5ac5b7ba9.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60377688-df95e980-99cd-11e9-8ea5-0161914ba4dc.JPG" height=128/>
 
-1. スイッチをRCトランスミッターに一時的に挿入する
-1. キーワッシャーをトランスミッターの反対側に置きます
-1. ドライバー先端の位置にRCトランスミッターをマーク
+1. スイッチをRC送信機に一時的に挿入する
+1. キーワッシャーを送信機の反対側に置きます
+1. ドライバー先端の位置にRC送信機をマーク
 1. およそ`2.5mm - 3.5mm`ドリルビットを使用して、印を付けた場所に穴を開けます
 
-### ステップ5 - RCトランスミッタへの手動スイッチの固定
+### ステップ5 - RC送信機への手動スイッチの固定
 
 <img src="https://user-images.githubusercontent.com/25759564/60377694-e0c71680-99cd-11e9-83f7-d67d579241ff.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60377689-e02e8000-99cd-11e9-9e8a-aabdc0c82d05.JPG" height=128/>
@@ -273,9 +273,9 @@
 
 1. 手動オーバーライドスイッチを穴に再挿入します
 1. キー付きワッシャとナットをスイッチに戻します。
-1. プライヤーを使用してスイッチをRCトランスミッターに固定する
+1. プライヤーを使用してスイッチをRC送信機に固定する
 
-### ステップ6 - RCトランスミッタPCBへのはんだ付けスイッチ
+### ステップ6 - RC送信機PCBへスイッチをはんだ付けする
 
 <img src="https://user-images.githubusercontent.com/25759564/60377697-e15fad00-99cd-11e9-94ea-2704dee00761.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60377698-e15fad00-99cd-11e9-8587-538703080ba4.JPG" height=128/>
@@ -292,7 +292,7 @@
 1. むき出しのリード線にはんだを付ける
 1. ペンチを使用して、指示されたパッドにワイヤーを当て、はんだごてで熱を加えます
 
-### ステップ7 - RCトランスミッターを再組み立てする
+### ステップ7 - RC送信機を再組み立てする
 
 <img src="https://user-images.githubusercontent.com/25759564/60377737-19ff8680-99ce-11e9-8cf7-715df1081d53.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60377760-33a0ce00-99ce-11e9-9a3f-beb0f7c11078.JPG" height=128/>
@@ -300,7 +300,7 @@
 <img src="https://user-images.githubusercontent.com/25759564/60377762-33a0ce00-99ce-11e9-9071-d2a878a22212.JPG" height=128/>
 <img src="https://user-images.githubusercontent.com/25759564/60377763-33a0ce00-99ce-11e9-9c3e-0b3d9de2bf86.JPG" height=128/>
 
-1.  RCトランスミッターの半分を取り付け直します
+1.  RC送信機の半分を取り付け直します
 1. 元のネジを使用して半分を締めます
 1.  `AA`電池4 `AA` 、電池カバーを取り付ける
 
