@@ -5,7 +5,7 @@
 
 >  JetRacerがWiFiに接続されていることを確認する。 [ソフトウェア設定の](software_setup.md)ようにIPアドレスをメモしているはずです。
 
-## 例1  - 基本モーション
+## 例1 - 基本動作
 
 この例では、WebブラウザからJetRacerをプログラム的に制御する方法を示します。
 
@@ -14,15 +14,16 @@
 1.  Jupyter Labファイルブラウザで`~/jetracer/notebooks`フォルダを参照する
 1. ノートブック`basic_motion_ja.ipynb`を介して実行する
 
-## 例2  - ロードフォロー
+## 例2 - コースに沿った自動運転
 
 ### ステップ1  - インタラクティブトレーナーを開く
+
 1.  `http://<jetson_ip_address>:8888`
 1. デフォルトのパスワード`jetson`サインインする
 1.  Jupyter Labファイルブラウザで`~/jetracer/notebooks`フォルダを参照する
 1. ノートブック`interactive_regression_ja.ipynb`開く
 
-### ステップ2  - トレーナーを走らせる
+### ステップ2  - 学習を走らせる
 
 > `5W`モードを使うと、より多くの電力をJetson Nanoが使うことができ、シャットダウンを防げます。端末から `sudo nvpmodel -m1`と入力してみてください。
 

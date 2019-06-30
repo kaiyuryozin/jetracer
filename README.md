@@ -23,13 +23,13 @@
 
 ### 例1 - 基本動作
 
-この例では、あなたのウェブブラウザからプログラム的にJetRacerをプログラムすることを学びます。 [サンプル](docs/examples_ja.md)ドキュメントでもっと学びましょう。
+この例では、ウェブブラウザからJetRacerをプログラムすることを学びます。 [制作例](docs/examples_ja.md)に詳細があります。
 
  <img src="https://user-images.githubusercontent.com/4212806/60383497-68d90a80-9a26-11e9-9a18-778b7d3a3221.gif" height=300 />
 
 ### 例2 - コースに沿って走る自動運転
 
-この例では、AIを使ってJetRacerにコースの走り方を教えます。 [インタラクティブな学習ノートブック](notebooks/interactive_regression_ja.ipynb)を使ってニューラルネットワークを学習させます。そして、JetRacerに最適化されたライブデモをデプロイします。[制作例](docs/examples_ja.md)にて、さらに学んでみましょう。
+この例では、AIを使い、JetRacerにコースの走り方を教えます。 [対話型の学習用ノートブック](notebooks/interactive_regression_ja.ipynb)を使い、ニューラルネットワークを学習させます。そして、JetRacerに最適化されたライブデモをデプロイします。[制作例](docs/examples_ja.md)に詳細があります。
 
  <img src = "https://user-images.githubusercontent.com/4212806/60383389-bd7b8600-9a24-11e9-9f64-926e5edb52cc.gif" height=300 />
 
