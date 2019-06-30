@@ -1,44 +1,41 @@
-# JetRacer
 
-<img src="https://user-images.githubusercontent.com/25759564/60384726-40f1a300-9a36-11e9-90df-e8fdcf2f69ae.jpg" height=256>
+#  JetRacer
 
-JetRacer is an educational AI racecar using NVIDIA Jetson Nano that is
+ <img src = "https://user-images.githubusercontent.com/25759564/60384726-40f1a300-9a36-11e9-90df-e8fdcf2f69ae.jpg" height = 256>
 
-* Affordable - Less than $400 *including* Jetson Nano
+ JetRacerは、NVIDIA Jetson Nanoを使用した教育用AIレースカーです。
+- **手頃な価格** -  Jetson Nanoを含めて400USドル以下
+- **教育** - 基本動作から、AIでコースに沿って走る自動運転まで
+- **楽しい!** -  Webブラウザから対話的にプログラムできる
 
-* Educational - Examples from basic motion to AI road following
-* Fun! - Interactively programmed from your web browser
+はじめに、以下の設定方法に沿って進めましょう。
 
-To get started, follow the [setup](#setup) below.
+## セットアップ
 
-## Setup
+次のステップで、JetRacerを使い始められます。
 
-To get started with JetRacer, follow these steps
+1. 部品表から部品を注文する [日本語](docs/bill_of_materials_ja.md) / [英語](docs/bill_of_materials.md)
+1. ハードウェアの組み立て [日本語](docs/hardware_setup_ja.md) / [英語](docs/hardware_setup.md)
+1. ソフトウェアの設定 [日本語](docs/software_setup_ja.md) / [英語](docs/software_setup.md)
+1. 例に沿って実行する [日本語](docs/examples_ja.md) / [英語](docs/examples.md)
 
-1. Order parts from the [bill of materials](docs/bill_of_materials.md)
+## 作例
 
-2. Follow the [hardware setup](docs/hardware_setup.md)
-3. Follow the [software setup](docs/software_setup.md)
-4. Run through the [examples](docs/examples.md)
+### 例1 - 基本動作
 
-## Examples
+この例では、あなたのウェブブラウザからプログラム的にJetRacerをプログラムすることを学びます。 [サンプル](docs/examples_ja.md)ドキュメントでもっと学びましょう。
 
-### Example 1 - Basic motion
+ <img src="https://user-images.githubusercontent.com/4212806/60383497-68d90a80-9a26-11e9-9a18-778b7d3a3221.gif" height=300 />
 
-In this example you'll learn to progam JetRacer programatically from your web browser.  Learn more in the [examples](docs/examples.md) documentation.
+### 例2 - コースに沿って走る自動運転
 
-<img src="https://user-images.githubusercontent.com/4212806/60383497-68d90a80-9a26-11e9-9a18-778b7d3a3221.gif" height=300/>
+この例では、AIを使ってJetRacerにコースの走り方を教えます。 [インタラクティブな学習ノートブック](notebooks/interactive_regression_ja.ipynb)を使ってニューラルネットワークを学習させます。そして、JetRacerに最適化されたライブデモをデプロイします。[制作例](docs/examples_ja.md)にて、さらに学んでみましょう。
 
-### Example 2 - Road following
+ <img src = "https://user-images.githubusercontent.com/4212806/60383389-bd7b8600-9a24-11e9-9f64-926e5edb52cc.gif" height=300 />
 
-In this example, you'll teach JetRacer how to follow a road using AI.  After training the neural network using the [interactive training notebook](notebooks/interactive_regression.ipynb), you'll deploy an optimized live demo on JetRacer.  Learn more in the [examples](docs/examples.md).
+## 参考サイト
 
-<img src="https://user-images.githubusercontent.com/4212806/60383389-bd7b8600-9a24-11e9-9f64-926e5edb52cc.gif" height=300/>
-
-## See also
-
-* [JetBot](http://github.com/NVIDIA-AI-IOT/jetbot) - An educational AI robot based on NVIDIA Jetson Nano
-
-* [JetCam](http://github.com/NVIDIA-AI-IOT/jetcam) - An easy to use Python camera interface for NVIDIA Jetson
-* [JetCard](http://github.com/NVIDIA-AI-IOT/jetcard) - An SD card image for web programming AI projects with NVIDIA Jetson Nano
-* [torch2trt](http://github.com/NVIDIA-AI-IOT/torch2trt) - An easy to use PyTorch to TensorRT converter
+-  [JetBot](http://github.com/NVIDIA-AI-IOT/jetbot) -  NVIDIA Jetson Nanoをベースにした教育用AIロボット
+-  [JetCam](http://github.com/NVIDIA-AI-IOT/jetcam) -  NVIDIA Jetson用の使いやすいPythonカメラインターフェース
+-  [JetCard](http://github.com/NVIDIA-AI-IOT/jetcard) -  NVIDIA Jetson NanoによるAIプロジェクトのWebプログラミング用のSDカードイメージ
+-  [torch2trt](http://github.com/NVIDIA-AI-IOT/torch2trt) -  PyTorchからTensorRTへのコンバーター

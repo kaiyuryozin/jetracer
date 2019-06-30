@@ -1,72 +1,74 @@
 
 # 部品表
 
-このページはJetRacerを構築するために必要な部分をリストします。部品を受け取ったら、 [ハードウェアの設定](hardware_setup_ja.md)に従います。
+このページはJetRacerを構築するために必要な部分をリストします。部品を受け取ったら、[ハードウェアの設定](hardware_setup_ja.md)に従います。
 
  <img src = "https://user-images.githubusercontent.com/4212806/60303370-1810c700-98eb-11e9-9393-dfc3e8799453.jpg" height = 256>
 
+> (2019/6/30 訳者注)現時点ではこちらのBOMは, オリジナルのページをそのまま翻訳しており, 日本での調達可能性などは未確認ですのでご注意ください。
+
 ## Jetson Nano
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
 |Jetson Nano| 1 | $ 99.00 | [NVIDIA](https://developer.nvidia.com/embedded/buy/jetson-nano-devkit) ||
-|マイクロSDカード| 1 | 13.99ドル| [アマゾン](https://amzn.to/2Us6bOv) | 32GB以上でなければなりません|
-| USBバッテリー| 1 | 15.95ドル| [アマゾン](https://www.amazon.com/5000-mah-Attom-Tech-Portable-Emergency/dp/B07MNWPFG8/) |最低5V @ 2Aを供給する必要があります|
-| USB A  - >2.1mmバレルケーブル| 1 | $ 7.00 | [アマゾン](https://www.amazon.com/gp/product/B075112RM6/) ||
-| 5V @ 4Aバレルプラグ電源| 1 | 14.95ドル| [アダフルーツ](https://www.adafruit.com/product/1466) |内径2.1mm |
-|ジャンパーキャップパック| 1 | 5.09ドル| [アマゾン](http://amzn.com/B077957RN7/) | 2.54mmピッチ|
+|マイクロSDカード| 1 | 13.99ドル| [Amazon](https://amzn.to/2Us6bOv) | 32GB以上でなければなりません|
+| USBバッテリー| 1 | 15.95ドル| [Amazon](https://www.amazon.com/5000-mah-Attom-Tech-Portable-Emergency/dp/B07MNWPFG8/) |最低5V @ 2Aを供給要|
+| USB A  - >2.1mmバレルケーブル| 1 | $ 7.00 | [Amazon](https://www.amazon.com/gp/product/B075112RM6/) ||
+| 5V @ 4Aバレルプラグ電源| 1 | 14.95ドル| [Adafruit](https://www.adafruit.com/product/1466) |内径2.1mm |
+|ジャンパーキャップパック| 1 | 5.09ドル| [Amazon](http://amzn.com/B077957RN7/) | 2.54mmピッチ|
 
 ## シャーシ
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
-| RCカー| 1 | $ 109.95 | [ホビータウン](https://www.hobbytown.com/traxxas-latrax-rally-1-18-4wd-rtr-rally-racer-green-tra75054-5-grn/p630138) 、 [Amazon](http://amzn.com/B06W57XLRW) | Traxxas LaTrax Rally 1/18 4WD w / 2.4GHzラジオ|
+| RCカー| 1 | $ 109.95 | [Hobbytown](https://www.hobbytown.com/traxxas-latrax-rally-1-18-4wd-rtr-rally-racer-green-tra75054-5-grn/p630138) ,  [Amazon](http://amzn.com/B06W57XLRW) | Traxxas LaTrax Rally 1/18 4WD w / 2.4GHzラジオ|
 | 3Dプリント基板| 1 || [STLファイル](../assets/jetracer_latrax_base_board.stl) ||
 | 3Dプリントカメラマウント| 1 || [STLファイル](../assets/jetracer_latrax_cam_mount.stl) |
 
 ## エレクトロニクス
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
-| PWMサーボモータドライバ| 1 | 6.99ドル| [アマゾン](http://amzon.com/B01D1D0CX2/) | PCA9685 |
-| RCサーボマルチプレクサ| 1 | 9.95ドル| [ポロル](https://www.pololu.com/product/2806) ||
-|サーボ延長ケーブルパック| 1 | 5.91ドル| [アマゾン](http://amzn.com/B00P6JJFIS/) |男性から男性、10cm |
-|ジャンパー線パック| 1 | 6.98ドル| [アマゾン](http://amzn.com/B01EV70C78/) |女性から女性、>10cm ||
-|手動オーバーライドスイッチパック| 1 | 10.99ドル| [アマゾン](https://www.amazon.com/gp/product/B07L74MMG8/) |
+| PWMサーボモータドライバ| 1 | 6.99ドル| [Amazon](http://amzon.com/B01D1D0CX2/) | PCA9685 |
+| RCサーボマルチプレクサ| 1 | 9.95ドル| [Pololu](https://www.pololu.com/product/2806) ||
+|サーボ延長ケーブルパック| 1 | 5.91ドル| [Amazon](http://amzn.com/B00P6JJFIS/) |オスからオス, 10cm |
+|ジャンパー線パック| 1 | 6.98ドル| [Amazon](http://amzn.com/B01EV70C78/) |メスからメス, >10cm ||
+|手動オーバーライドスイッチパック| 1 | 10.99ドル| [Amazon](https://www.amazon.com/gp/product/B07L74MMG8/) |
 
 ##  Wi-Fi
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
-| Wi-Fiカード| 1 | 18.95ドル| [アマゾン](https://amzn.to/2WKEkum) 、 [ニューエッグ](https://www.neweggbusiness.com/Product/Product.aspx?Item=9SIV21M85N2699) ||
-| Wi-Fiアンテナ| 2 | 5.06ドル| [矢印](https://www.arrow.com/en/products/2042811100/molex) |
+| Wi-Fiカード| 1 | 18.95ドル| [Amazon](https://amzn.to/2WKEkum) ,  [Newegg](https://www.neweggbusiness.com/Product/Product.aspx?Item=9SIV21M85N2699) ||
+| Wi-Fiアンテナ| 2 | 5.06ドル| [Arrow](https://www.arrow.com/en/products/2042811100/molex) |
 
 ## カメラ
 
- JetRacer用の広角カメラが必要です。オプションを選択して、表示されている部品を注文してください。
+ JetRacer用の広角カメラが必要です。オプションを選択して, 表示されている部品を注文してください。
 
 ### オプション1  - 広角ヒョウイメージングカメラ
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
-|カメラ| 1 | 29ドル| [ヒョウイメージング](https://leopardimaging.com/product/li-imx219-mipi-ff-nano/) |広角（ **H145** ）オプションを選択|
+|カメラ| 1 | 29ドル| [leopardimaging](https://leopardimaging.com/product/li-imx219-mipi-ff-nano/) |広角（ **H145** ）オプションを選択|
 
 ### オプション2  - ラズベリーパイカメラV2 +広角アタッチメント
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
-|カメラ| 1 | 23.90ドル| [アマゾン](https://amzn.to/2MSi6lL) 、 [Adafruit](http://adafru.it/3099) |ラズベリーパイカメラV2 |
-|広角アタッチメント| 1 | 18.99ドル| [Amazon（1）](https://amzn.com/B07HMXJ9Y1) 、 [Amazon（2）](https://amzn.com/B07HF81BVL/) 、 [eBay](https://ebay.us/Fz7HGd) | 160度FoV |
+|カメラ| 1 | 23.90ドル| [Amazon](https://amzn.to/2MSi6lL) ,  [Adafruit](http://adafru.it/3099) |ラズベリーパイ用カメラV2 |
+|広角アタッチメント| 1 | 18.99ドル| [Amazon(1)](https://amzn.com/B07HMXJ9Y1) ,  [Amazon(2)](https://amzn.com/B07HF81BVL/) ,  [eBay](https://ebay.us/Fz7HGd) | 160度FoV |
 
 ## アセンブリハードウェア
 
-|部|量|コスト| URL |ノート|
+|部品|数量|コスト| URL |ノート|
 |---|---|---|---|---|
-| M2×6mmスクリューパック| 1 | 13.53ドル| [アマゾン](https://www.amazon.com/gp/product/B01FXGHO2M/) | 3Dプリントベースプレートにアクセサリを取り付けます。 1台あたり12本のネジが必要|
-| M3×20mmスタンドオフパック| 1 | 6.99ドル| [アマゾン](https://www.amazon.com/dp/B072DVGWHZ/ref=cm_sw_su_dp) | 3DプリントベースプレートをRCシャーシに取り付けます。 1台の車に4スタンドオフが必要|
-| M2×38mmスクリューパック| 1 | 11.99ドル| [アマゾン](http://amzn.com/B07CHJBK6F) | 1台につき2台必要|
-| M2×30mmスクリューパック| 1 | 7.96ドル| [アマゾン](https://www.amazon.com/dp/B015A31EVK/ref=cm_sw_su_dp) | 1台につき2台必要|
-|粘着パッドパック| 1 | 6.98ドル| [アマゾン](https://www.amazon.com/gp/product/B001KYSAN4/) | 1台につき4台必要|
+| M2×6mmスクリューパック| 1 | 13.53ドル| [Amazon](https://www.amazon.com/gp/product/B01FXGHO2M/) | 3Dプリントベースプレートにアクセサリを取り付けます。 1台あたり12本のネジが必要|
+| M3×20mmスタンドオフパック| 1 | 6.99ドル| [Amazon](https://www.amazon.com/dp/B072DVGWHZ/ref=cm_sw_su_dp) | 3DプリントベースプレートをRCシャーシに取り付けます。 1台の車に4スタンドオフが必要|
+| M2×38mmスクリューパック| 1 | 11.99ドル| [Amazon](http://amzn.com/B07CHJBK6F) | 1台につき2台必要|
+| M2×30mmスクリューパック| 1 | 7.96ドル| [Amazon](https://www.amazon.com/dp/B015A31EVK/ref=cm_sw_su_dp) | 1台につき2台必要|
+|粘着パッドパック| 1 | 6.98ドル| [Amazon](https://www.amazon.com/gp/product/B001KYSAN4/) | 1台につき4台必要|
 
 ## この次は
 
