@@ -3,11 +3,11 @@
 
 以下の例に沿って、JetRacerを始めてみましょう。
 
->  JetRacerがWiFiに接続されていることを確認する。 [ソフトウェア設定の](software_setup.md)ようにIPアドレスをメモしているはずです。
+>  JetRacerがWiFiに接続されていることを確認する。 [ソフトウェア設定](software_setup_ja.md)で、接続先IPアドレスをメモしているはずです。
 
 ## 例1 - 基本動作
 
-ここでは、WebブラウザからJetRacerをプログラムで制御する方法を示します。
+WebブラウザからJetRacerをコントロールする手順は以下です。
 
 1.  `http://<jetson_ip_address>:8888`
 1. デフォルトのパスワード`jetson`サインインする
