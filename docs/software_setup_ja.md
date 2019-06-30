@@ -12,16 +12,18 @@
 1. [Etcher](https://www.balena.io/etcher/)を使って、`jetcard_v0p0p0.img`を選択し、SDカードに書き込む
 1. デスクトップマシンからSDカードを取り出す
 
-> あらかじめ作成されたSDカードのパスワードは`jetson`
+> あらかじめ作成されたSDカードのデフォルトパスワードは`jetson`
 
 ## ステップ2  - 電源を入れてUSB経由で接続する
 1. 設定したSDカードをJetson Nanoモジュールに挿入する
 1.  USBバレルプラグアダプターをUSBバッテリーパックに差し込んで電源を入れる
 1.  Windows、Linux、またはMacマシンをマイクロUSB経由でJetson Nanoに接続する
 1.  Windows、Linux、またはMacマシンでブラウザを開き、 `192.168.55.1:8888`移動する
-1. デフォルトのパスワード`jetson`を使ってサインインする
+1. デフォルトパスワード`jetson`を使ってサインインする
+
 
 ## ステップ2  -  JetRacerをWiFiに接続する
+
 1.  Jupyter Labで`File` - > `New` - > `Terminal`クリックしてターミナルを開き`File`
 1. 端末で、次のコマンドを入力して利用可能なWiFiネットワークを一覧表示し、ネットワークの`ssid_name`を見つける
 
@@ -31,7 +33,7 @@ sudo nmcli device wifi list
 
 1. 選択したWiFiネットワークに接続する
 
->それはあなたがからウェブプログラミングされるのと同じネットワーク上にあるべきです
+> ウェブブラウザからプログラミングする時に接続するネットワークと、同一ネットワークに所属させます
 
 ```
 sudo nmcli device wifi connect <ssid_name> password <password>
@@ -44,7 +46,7 @@ ifconfig
 ```
 
 ## ステップ4  -  WiFi経由でJetRacerに接続する
-1. マイクロUSBケーブルをJetson Nanoから取り外します
+1. マイクロUSBケーブルをJetson Nanoから取り外す
 1. 前のJupyter Labブラウザタブを閉じる
 1. 新しいブラウザタブを開き、 `http://<jetson_ip_address>:8888`移動し`http://<jetson_ip_address>:8888`
 1. パスワード`jetson`サインイン
@@ -77,12 +79,12 @@ cd jetracer sudo python3 setup.py install
 ## ステップ6  -  Jetson Nanoを5Wモードに設定する
 
  Jetson Nanoがバッテリーの最大の供給量よりも多くの電力を引き出すのを防ぐために、5Wモードに設定する
-1. 端末を開き、以下を呼び出して5Wモードを設定します
+1. 端末を開き、以下を呼び出して5Wモードを設定する
 
 ```
 sudo nvpmodel -m1
 ```
 
-## 次
+## 次のステップ
 
-次に、 [例を](examples_ja.md)実行していきます。
+次は[制作例](examples_ja.md)を実行していきます。
