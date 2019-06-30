@@ -85,4 +85,4 @@ sudo nvpmodel -m1
 
 ## 次
 
-次に、 [例を](examples.md)実行していきます。
+次に、 [例を](examples_ja.md)実行していきます。
