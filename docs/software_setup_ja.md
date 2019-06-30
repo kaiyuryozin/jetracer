@@ -1,10 +1,13 @@
 
 # ソフトウェア設定
 
-これらのステップを終えた後、あなたはすべてJetRacerをプログラムする準備ができているでしょう。終了したら、 [例を](examples.md)実行してください。
+これらのステップを終えた後、あなたはすべてJetRacerをプログラムする準備ができているでしょう。終了したら、 [例に沿って](examples_ja.md)実行してください。
 
 ## ステップ1  - フラッシュマイクロSDカード
-1.  JetCard SDカードのイメージ[jetcard_v0p0p0.img](https://drive.google.com/open?id=1wXD1CwtxiH5Mz4uSmIZ76fd78zDQltW_)をWindows、Linux、またはMacの*デスクトップマシンに*ダウンロードし*ます。* <blockquote>あなたはこの[md5sum](https://drive.google.com/open?id=1356ZBrYUWaTgbV50UMB1uCfWrNcd6PEF)に対してそれをチェックすることができます</blockquote>
+1.  JetCard SDカードのイメージ[jetcard_v0p0p0.img](https://drive.google.com/open?id=1wXD1CwtxiH5Mz4uSmIZ76fd78zDQltW_)をWindows、Linux、またはMacのデスクトップマシンにダウンロードします。
+
+> あなたはこの[md5sum](https://drive.google.com/open?id=1356ZBrYUWaTgbV50UMB1uCfWrNcd6PEF)に対してそれをチェックすることができます
+
 1. デスクトップマシンに32GB + SDカードを挿入してください
 1. 使用する[エッチング装置は、](https://www.balena.io/etcher/)選択`jetcard_v0p0p0.img`し、SDカードにそれをフラッシュ
 1. デスクトップマシンからSDカードを取り出す

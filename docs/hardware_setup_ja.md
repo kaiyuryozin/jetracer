@@ -1,7 +1,7 @@
 
 # ハードウェア設定
 
- JetRacerを構築するためにこれらの指示に従ってください。終了したら、 [ソフトウェアの設定に進みます](software_setup.md) 。
+ JetRacerを構築するためにこれらの指示に従ってください。終了したら、 [ソフトウェアの設定に進みます](software_setup_ja.md) 。
 
 ## 道具
 - プラスドライバセット
@@ -25,7 +25,7 @@
 
 ### ステップ2  - 車からESCとRC受信機を削除
 
- <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60311224-37b7e780-990b-11e9-92b1-04fd1bc78b41.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60311225-37b7e780-990b-11e9-9738-aab32effaf32.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564 / 60311226-37b7e780-990b-11e9-9454-9f54187a61af.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311228-38507e00-990b-11e9-9bb5- 53256784ea85.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311229-38507e00-990b-11e9-890b-3123dcdf4cea.JPG" height = 128 /> <img src ="= "https://user-images.githubusercontent.com/25759564/60311231-38507e00-990b-11e9-832d-fdb3b696f336.JPG" height = 128 /> <img src = "https：//user-images.githubusercontent。 com / 25759564 / 60311233-38e91480-990b-11e9-86be-5b01f8e4a9d2.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311234-38e91480-990b-11e9- 9277-3f71895a40c7.JPG" height =128 />
+ <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60311224-37b7e780-990b-11e9-92b1-04fd1bc78b41.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60311225-37b7e780-990b-11e9-9738-aab32effaf32.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311226-37b7e780-990b-11e9-9454-9f54187a61af.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311228-38507e00-990b-11e9-9bb5- 53256784ea85.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311229-38507e00-990b-11e9-890b-3123dcdf4cea.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60311231-38507e00-990b-11e9-832d-fdb3b696f336.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60311233-38e91480-990b-11e9-86be-5b01f8e4a9d2.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60311234-38e91480-990b-11e9-9277-3f71895a40c7.JPG" height =128 />
 1. 電子ハブをシャーシに固定している2本のネジを外します。
 1. シャーシから電子ハブを引き出す
 1. 電子ハブからESCとRC受信機を取り外す
@@ -43,7 +43,7 @@
 
 ### ステップ2  - サーボドライバをマルチプレクサに接続する
 
- <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60312424-23c2b480-9910-11e9-824e-7fb36213dd65.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60312425-23c2b480-9910-11e9-94af-ccc7b5d9f07a.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564 / 60312427-245b4b00-9910-11e9-8781-ba4ec20c0012.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60312429-245b4b00-9910-11e9-84d5- f3ccf10fcf86.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60312430-245b4b00-9910-11e9-8244-22c40b3b5851.JPG" height = 128 /> <img src = = "https://user-images.githubusercontent.com/25759564/60312431-245b4b00-9910-11e9-8a6d-f6f1ae954ab2.JPG" height = 128 />
+ <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60312424-23c2b480-9910-11e9-824e-7fb36213dd65.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60312425-23c2b480-9910-11e9-94af-ccc7b5d9f07a.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564 / 60312427-245b4b00-9910-11e9-8781-ba4ec20c0012.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60312429-245b4b00-9910-11e9-84d5- f3ccf10fcf86.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60312430-245b4b00-9910-11e9-8244-22c40b3b5851.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60312431-245b4b00-9910-11e9-8a6d-f6f1ae954ab2.JPG" height = 128 />
 1. サーボドライバのチャンネル`0`をマルチプレクサのチャンネル`S1`に接続します
 1. サーボドライバのチャンネル`1`をマルチプレクサのチャンネル`S2`に接続します
 
@@ -139,7 +139,7 @@
 
 ### ステップ1  -  Dissasmbleラジオ
 
- <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60376010-fc77f000-99c0-11e9-9e2a-478a5da88062.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60376011-fc77f000-99c0-11e9-827f-77e4df18516f.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564/60376014-fda91d00-99c0-11e9-8a45-ca3ef0f4831c.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60376015-fe41b380-99c0-11e9-9915- d31b6d32e692.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60376016-fe41b380-99c0-11e9-9f2f-892026211c67.JPG" height = 128 /> <img src ="= "https://user-images.githubusercontent.com/25759564/60376019-feda4a00-99c0-11e9-9aa9-89d6ea78532b.JPG" height = 128 /> <img src = "https：//user-images.githubusercontent。 com / 25759564/60376020-ff72e080-99c0-11e9-907e-1ccd5c805a20.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60376023-ff72e080-99c0-11e9- 8bad-3bc2d4577207.JPG" height =128 />
+ <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60376010-fc77f000-99c0-11e9-9e2a-478a5da88062.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60376011-fc77f000-99c0-11e9-827f-77e4df18516f.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564/60376014-fda91d00-99c0-11e9-8a45-ca3ef0f4831c.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60376015-fe41b380-99c0-11e9-9915- d31b6d32e692.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60376016-fe41b380-99c0-11e9-9f2f-892026211c67.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60376019-feda4a00-99c0-11e9-9aa9-89d6ea78532b.JPG" height = 128 /> <img src = "https：//user-images.githubusercontent。 com / 25759564/60376020-ff72e080-99c0-11e9-907e-1ccd5c805a20.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60376023-ff72e080-99c0-11e9- 8bad-3bc2d4577207.JPG" height =128 />
 1. プラスドライバでラジオの半分を固定している5本のネジを外します
 1.  2つの半分を接合するラジオスティックをはがします
 1. ラジオの半分にラジオステッカーを貼ります
@@ -175,7 +175,7 @@
 
 ### ステップ6  -  RCトランスミッタPCBへのはんだ付けスイッチ
 
- <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60377697-e15fad00-99cd-11e9-94ea-2704dee00761.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60377698-e15fad00-99cd-11e9-8587-538703080ba4.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564/60377700-e1f84380-99cd-11e9-8580-546ff486e2b0.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60377702-e1f84380-99cd-11e9-81e1- 9d61d72892be.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60377703-e1f84380-99cd-11e9-8e78-79393d8b9378.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60377705-e290da00-99cd-11e9-9b00-cbed3a20eef2.JPG" height = 128 /> <img src = "https：//user-images.githubusercontent。 com / 25759564/60377676-de64bc80-99cd-11e9-9997-01baa79ad4cc.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60377736-19ff8680-99ce-11e9- 895e-0c5a5dbe6915.JPG "身長t = 128 />
+ <a> </a> <img src = "https://user-images.githubusercontent.com/25759564/60377697-e15fad00-99cd-11e9-94ea-2704dee00761.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60377698-e15fad00-99cd-11e9-8587-538703080ba4.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/ 25759564/60377700-e1f84380-99cd-11e9-8580-546ff486e2b0.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60377702-e1f84380-99cd-11e9-81e1- 9d61d72892be.JPG" height = 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60377703-e1f84380-99cd-11e9-8e78-79393d8b9378.JPG" height = 128 /> <img src = "https://user-images.githubusercontent.com/25759564/60377705-e290da00-99cd-11e9-9b00-cbed3a20eef2.JPG" height = 128 /> <img src = "https：//user-images.githubusercontent。 com / 25759564/60377676-de64bc80-99cd-11e9-9997-01baa79ad4cc.JPG" height= 128 /> <img src ="https://user-images.githubusercontent.com/25759564/60377736-19ff8680-99ce-11e9- 895e-0c5a5dbe6915.JPG" height = 128 />
 1. 指示された長さでワイヤをおおよそ切断する<blockquote>はんだパッドに達するのに十分な長さでワイヤーを切るようにしてください</blockquote>
 1. 指示に従ってワイヤをはがします
 1. 示されている2つのパッドにはんだを付けます
@@ -195,4 +195,4 @@
 
 ## さて次は
 
-次に、 [ソフトウェアの設定](software_setup.md)に従い[ます](software_setup.md) 。
+次に、 [ソフトウェアの設定](software_setup_ja.md)に沿って進めます。

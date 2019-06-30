@@ -1,7 +1,7 @@
 
 # 部品表
 
-このページはJetRacerを構築するために必要な部分をリストします。部品を受け取ったら、 [ハードウェアの設定](hardware_setup.md)に従い[ます](hardware_setup.md) 。
+このページはJetRacerを構築するために必要な部分をリストします。部品を受け取ったら、 [ハードウェアの設定](hardware_setup_ja.md)に従います。
 
  <img src = "https://user-images.githubusercontent.com/4212806/60303370-1810c700-98eb-11e9-9393-dfc3e8799453.jpg" height = 256>
 
@@ -68,6 +68,6 @@
 | M2×30mmスクリューパック| 1 | 7.96ドル| [アマゾン](https://www.amazon.com/dp/B015A31EVK/ref=cm_sw_su_dp) | 1台につき2台必要|
 |粘着パッドパック| 1 | 6.98ドル| [アマゾン](https://www.amazon.com/gp/product/B001KYSAN4/) | 1台につき4台必要|
 
-## 次
+## この次は
 
- [ハードウェアの設定に](hardware_setup.md)従ってください。
+ [ハードウェアの設定](hardware_setup_ja.md)に沿って進めます。
