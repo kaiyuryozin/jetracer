@@ -1,0 +1,6 @@
+.DS_Store
+translate_en_to_ja.ipynb
+.ipynb_checkpoints/
+docs/.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+.python-version
